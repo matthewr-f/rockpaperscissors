@@ -3,10 +3,8 @@ let computerScore = 0;
 let gameState = 'in progress';
 
 function getComputerChoice() {
-    // generate a random number,
     let num = Math.random();
 
-    // parse that number into 0, 1, and 2
     if (num < 0.33) {
         return 'rock';
     }
